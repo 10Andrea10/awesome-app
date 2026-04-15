@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/part-of: demo-app
     app.kubernetes.io/component: web
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app.kubernetes.io/name: frontend
     app.kubernetes.io/part-of: demo-app
@@ -16,3 +16,4 @@ spec:
     - name: http
       port: 80
       targetPort: http
+      nodePort: 30080
