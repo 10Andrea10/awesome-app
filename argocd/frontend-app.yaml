@@ -10,7 +10,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/awesome-app/k8s-lab.git
+    repoURL: https://github.com/10Andrea10/awesome-app.git
     targetRevision: HEAD
     path: apps/frontend
   destination:
